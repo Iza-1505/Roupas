@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iza Roupas</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="styles.css">
+   
+
+</head>
+<body>
+  <header class="cabeçalho">
+    <div class=caixa>
+        <input type="checkbox" id="menu" class="caixa-botao">
+        <label for="menu">
+    <span class="cabeçalho-menu-amburguer caixa-imagem"></span></label>
+    <ul class="lista-menu">
+        <li class="lista-menu-titulo"> Roupas em geral                                                                                                                                                                                                        </li>
+        <li class="lista-menu-itens"><a href="#" class="lista-menu-link">Calças</a>
+        </li>
+        <li class="lista-menu-itens"><a href="#" class="lista-menu-link">Camisas</a>
+        </li>
+        <li class="lista-menu-itens"><a href="#" class="lista-menu-link">Shorts</a>
+        </li>
+        <li class="lista-menu-itens"><a href="#" class="lista-menu-link">Vestidos</a>
+        </li>
+    </ul>
+    <a href="#"><img class=caixa-imagem src="carrinho de compras.svg" alt="carrinho de compras"></a></div>
+   
+    <div class=caixa><a href="#"><li class="cadastro">CADASTRO</li></a><a href="#"><img  class=caixa-imagem src="home.svg" alt="home"></a>
+    <a href="#" ><img  class=caixa-imagem src="meus favoritos.svg" alt="meus favoritos"></a></div>
+</header>
+<section class="banner">
+    <h2 class="banner-titulo"> Você Já sabe por onde começar?</h2>
+    <p class="banner-texto"> Venha escolher seus looks com a gente</p>
+    <input type="search" class="banner-pesquisa" 
+   placeholder="Qual será seus looks escolhidos?">
+</section>
+<section class="carrossel">
+    <h2 class="carrossel-titulo"> CONHEÇA NOSSO CATÁLOGO DE ROUPAS</h2>
+    <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="calçajeans_.jpg" alt="calça jeans"></div>
+      <div class="swiper-slide"><img src="camisa.jpg" alt="camisa"></div>
+      <div class="swiper-slide"><img src="shorts.webp" alt="short alfaiataria"></div>
+      <div class="swiper-slide"><img src="vestido.jpeg" alt="vestido "></div>
+      <div class="swiper-slide"><img src="conjunto.jpg" alt="conjunto"></div>
+      <div class="swiper-slide"><img src="macacão.jpg" alt="macacão"></div>
+    </div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <div class="card">
+                <!-- 1º linha -->
+      <div class="card-descrição">
+        <!-- 1º coluna -->
+        <div class="descrição">
+          <h3 class="decrição-titulo"> SAIBA MAIS SOBRE NOSSA LOJA DE ROUPAS, E VEM RENOVAR SEU GUARDA ROUPAS .</h3>
+
+             <h2 Class="descrição-roupas"> CALÇAS, CAMISAS, SHORTS E MUITO MAIS VENHA CONFERIR. </h2
+
+
+             <p class="descriçã-texto">FIQUE POR DENTRO DAS NOVIDADES E PROMOÇÕES. </p> </div>
+             <!-- 2º coluna -->
+              <img src="roupas.jpeg" class="descrição-imagem">
+      </div>
+      <!-- 2º linha -->
+       <div class="card-botões">
+         <!-- 1º coluna -->
+        <ul class="botões">
+          <li class="botões-item"><img src="meus favoritos.svg" alt="favoritar calças"></li>
+          <li class="botões-item"><img src="carrinho de compras.svg" alt="adicionar no carrinho"></li>
+        </ul>
+        <!-- 2º coluna -->
+         <a href="#" class="botões-ancora">CONHEÇA NOSSAS ROUPAS</a>
+       </div>
+    </div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+</section>
+<section class="tópicos">
+  <h2 class= "tópicos-titulo"> TÓPICOS VIZITADOS RECENTEMENTE</h2>
+  <ul class="tópicos-lista">
+<li class="tópicos-item"> <a href="#" class="tópicos-link">Calça Jeans</a></li>
+<li class="tópicos-item"> <a href="#" class="tópicos-link">Camisa</a></li>
+<li class="tópicos-item"> <a href="#" class="tópicos-link">Shorts</a></li>
+<li class="tópicos-item"> <a href="#" class="tópicos-link">Vestido</a></li>
+<li class="tópicos-item"> <a href="#" class="tópicos-link">Conjunto</a></li>
+<li class="tópicos-item"> <a href="#" class="tópicos-link">Macacão</a></li>
+<li class="tópicos-item"> <a href="#" class="tópicos-link">Saia</a></li>
+
+  </ul>
+
+</section>
+<section class="contato">
+<h2 class="contato-titulo">Fique por dentro das novidades</h2>
+<p class="contato-texto">atualizações, promoções e outros</p>
+<input type="email" placeholder="Cadastre seu e-mail" class="contato-email">
+</section>
+<hr />
+
+<footer class="rodapé"><a href="https://wa.me/qr/ML5S65MCJPAGJ1"><h2 class="rodapé-titulo">WHATSAPP</h2></a></footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script> const swiper = new Swiper('.swiper', {
+    spaceBetween: 10, slidesPerView: 3,
+    pagination: { el: '.swiper-pagination',
+        type: 'bullets',},
+    });</script>
+</body>
+</html>
